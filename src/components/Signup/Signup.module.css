@@ -1,0 +1,264 @@
+.main {
+  background: #eaeaec;
+  width: 100%;
+  height: 100vh;
+  padding: 4% 12%;
+}
+.main .signup {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  /* align-items: center; */
+}
+.main .signup .left {
+  width: 340px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left .facebooklogo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+.left .options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.left .options .option {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  /* opacity: 0.5; */
+}
+.option .logo {
+  background-color: whitesmoke;
+  /* border: 1px solid red; */
+  padding: 7px;
+  border-radius: 10px;
+}
+.option .select p {
+  font-size: 12px;
+  color: grey;
+}
+.option .select .para {
+  color: black;
+  font-weight: 500;
+}
+
+.left .leftBottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 450;
+  color: rgb(54, 54, 54);
+}
+.left .leftBottom div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.leftBottom p {
+  cursor: pointer;
+}
+
+.left .leftBottom p span {
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+.left .leftBottom p span:hover {
+  text-decoration: underline;
+}
+
+/* ---------------right side------------- */
+
+.signup .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.right .create {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  animation: fadeIn 3s;
+}
+.right .create .create2{
+  
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+}
+.right .create .createImage {
+  width: 50px;
+}
+.right .create .first {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.right .create .provide {
+  color: grey;
+  font-size: 12px;
+}
+.create form {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.create .input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.create .input .insideInput{
+  position: absolute;
+  font-size: 12px;
+  color: red;
+  top: 26px;
+  right: -120px;
+}
+.create .input p {
+  font-size: 12px;
+  font-weight: 450;
+}
+.create form .input input {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  /* outline: 0; */
+  font-size: 14px;
+}
+.input input::placeholder{
+  font-size: 12px;
+}
+.input input:focus{
+  outline: 1px solid rgb(106, 79, 131);
+}
+.create form .or {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.create form .btn {
+  border: 1px solid grey;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 450;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.create form button {
+  background-color: #087443;
+  padding: 8px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 450;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.verify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.verify input {
+  width: 50px;
+  height: 50px;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.friendinputs {
+  margin-bottom: 5px;
+}
+.friendpara  {
+  margin-bottom: 2px;
+}
+
+.finish {
+  width: 220px;
+  margin: auto;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.finish .finishphoto {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.date{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.date .dateselect{
+  padding: 4px 10px;
+  color: rgb(73, 73, 73);
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
